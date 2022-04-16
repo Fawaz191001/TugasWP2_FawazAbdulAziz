@@ -73,6 +73,7 @@
                     <th>:</th>
                     <td>
                         <select name="agama" id="agama">
+                            <option value="Pilih Agama">--Pilih Agama--</option>
                             <option name="agama" id="agama" value="Islam">Islam</option>
                             <option name="agama" id="agama" value="Kristen">Kristen</option>
                             <option name="agama" id="agama" value="Katolik">Katolik</option>
@@ -84,7 +85,10 @@
                 </tr>
                 <tr>
                     <td colspan="3" align="center">
-                        <input type="submit" value="Submit">
+                        <br>
+                        <input type="submit" value="kirim">
+                        <br><br>
+                        <input type="reset" value="Hapus">
                     </td>
                 </tr>
             </table>
